@@ -13,7 +13,7 @@ HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
 setup(
     name="python-algorithms-3x",
-    version="1.3.2",
+    version="1.4.0",
     description="Python sorting and searching algorithms",
     long_description=README,
     long_description_content_type="text/markdown",

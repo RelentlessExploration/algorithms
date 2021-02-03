@@ -4,5 +4,5 @@ try:
 except ImportError:  # Python 2
     from ConfigParser import ConfigParser as _ConfigParser
 
-__version__ = "1.2.0"
+__version__ = "1.4.0"
 _cfg = _ConfigParser()
