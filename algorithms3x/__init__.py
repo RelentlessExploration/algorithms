@@ -1,8 +1,8 @@
 import importlib_resources as _resources
-try:
-    from configparser import ConfigParser as _ConfigParser
-except ImportError:  # Python 2
-    from ConfigParser import ConfigParser as _ConfigParser
+__all__ = [
+    "algorithms3x"
+]
+from algorithms3x.search import binary_search, linear_search
+from algorithms3x.sort import bubble_sort, selection_sort
+__version__ = "1.4.5"
 
-__version__ = "1.4.0"
-_cfg = _ConfigParser()

@@ -6,4 +6,5 @@ algorithms3x/sort.py
 python_algorithms_3x.egg-info/PKG-INFO
 python_algorithms_3x.egg-info/SOURCES.txt
 python_algorithms_3x.egg-info/dependency_links.txt
+python_algorithms_3x.egg-info/requires.txt
 python_algorithms_3x.egg-info/top_level.txt

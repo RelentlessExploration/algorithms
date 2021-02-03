@@ -1,7 +1,7 @@
 from .sort import selection_sort
 def binary_search(arrayParam, target):
     """
-    Searches for an item using binary search algorithm. Run time: O(n/2)
+    Searches for an item using binary search algorithm. Run time: O(log n)
     """
     array = selection_sort(arrayParam) 
     middleIndex = int(len(array) / 2)
