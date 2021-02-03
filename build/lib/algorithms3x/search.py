@@ -1,10 +1,10 @@
-from .sort import selectionSort
-def binarySearch(arrayParam, target):
+from .sort import selection_sort
+def binary_search(arrayParam, target):
     """
     Searches for an item using linear search algorithm. Run time: O(n/2)
     """
 
-    array = selectionSort(arrayParam) 
+    array = selection_sort(arrayParam) 
     middleIndex = int(len(array) / 2)
     while len(array) != 1:
         middleIndex = int(len(array) / 2)
@@ -16,7 +16,8 @@ def binarySearch(arrayParam, target):
         else:
             del array[middleIndex : -1]
     return False
-def linearSearch(array, target):
+    
+def linear_search(array, target):
     """
     Search for an item using liner search. Run time: O(n)
     """

@@ -1,5 +1,5 @@
 from copy import deepcopy
-def bubbleSort(arrayParam):
+def bubble_sort(arrayParam):
     """
     Sort a list using bubble sort algorithm. Run time: O(n**2)
     """
@@ -23,7 +23,7 @@ def bubbleSort(arrayParam):
                 done = False
         if done == True:
             return array
-def selectionSort(arrayParam):
+def selection_sort(arrayParam):
     """
     Sort a list using selection sort algorithm. Run time: O(n**2)
     """

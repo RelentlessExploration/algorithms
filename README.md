@@ -23,8 +23,8 @@ pip install python-algorithms-3x
 # Usage
 ### Example:
 ```Python
-from algorithms3x.search import linearSearch
-linearSearch([1, 2, 3], 4)
+from algorithms3x.search import linear_search
+linear_search([1, 2, 3], 4)
 ```
 Output:
 ```Python
