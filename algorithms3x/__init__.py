@@ -4,5 +4,5 @@ __all__ = [
 ]
 from algorithms3x.search import binary_search, linear_search
 from algorithms3x.sort import bubble_sort, selection_sort
-__version__ = "1.4.6"
+__version__ = "2.0.0"
 
