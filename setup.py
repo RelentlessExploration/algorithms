@@ -14,7 +14,7 @@ HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
 setup(
     name="python-algorithms-3x",
-    version="2.0.0",
+    version="4.1.0",
     description="Python sorting and searching algorithms",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -29,5 +29,5 @@ setup(
     ],
     packages=find_packages(exclude=("tests", "build")),
     include_package_data=False,
-    install_requires=["importlib_resources"],
+    install_requires=["data-structures3x", "spell-checker", "and-or-not"],
 )
