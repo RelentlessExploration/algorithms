@@ -1,30 +1,13 @@
-from algorithms3x.sort import selection_sort
-def binary_search(arrayParam, target):
-    """
-    Searches for an item using binary search algorithm. Run time: O(log n)
-    """
-    array = selection_sort(arrayParam)     
-    while len(array) > 1:
-        middleIndex = int(len(array) / 2)
-        middlePoint = array[middleIndex]
-        if target == middlePoint:
-            return True
-        if target > middlePoint:
-            if array[middleIndex] != array[0]:
-                del array[0 : middleIndex + 1]
-                if array[-1] == target:
-                    return True
-            else:
-                del array[0]
-                if array[-1] == target:
-                    return True
-        else:
-            if array[middleIndex] != array[-1]:
-                del array[middleIndex : -1]
-            else:
-                del array[-1]
-                if array[0] == target:
-                    return True
-    return False
+def quick_sort(array):
+    # Choose pivot
+    if len(array) <= 1:
+        return array
+    pivot_ind = int(sum(array)/len(array))
+    pivot = array[pivot_ind]
+    left = array[:pivot_ind]
+    res = []
+    right = array[pivot_ind + 1:-1]
 
-print(binary_search([1, 2, 3, 4], 4))
+
+array = [6, 24, 17, 51, 32, 49, 76, 64, 81]
+print(array[-2])
