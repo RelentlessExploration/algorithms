@@ -1,3 +1,0 @@
-data-structures3x
-spell-checker
-and-or-not
