@@ -9,8 +9,8 @@ setup(
     description="Python sorting and searching algorithms",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/Harvard90873/algorithms",
-    author="Harvard90873",
+    url="https://github.com/RelentlessExploration/algorithms",
+    author="Tim",
     author_email="rem.cs90873@gmail.com",
     license="MIT",
     classifiers=[
